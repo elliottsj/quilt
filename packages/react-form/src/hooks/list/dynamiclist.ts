@@ -11,7 +11,7 @@ import {
   removeFieldsAction,
 } from './reducer';
 import {FieldListConfig} from './list';
-import {useHandlers} from './hooks/';
+import {useHandlers} from './hooks';
 
 interface DynamicList<Item extends object> {
   fields: FieldDictionary<Item>[];

@@ -6,7 +6,6 @@ import {
   FieldState,
   NormalizedValidationDictionary,
 } from '../../../types';
-
 import {
   updateAction,
   updateErrorAction,
